@@ -13,6 +13,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>server-api</module>
+        <module>server-service</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hong</groupId>
+            <artifactId>rpc-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

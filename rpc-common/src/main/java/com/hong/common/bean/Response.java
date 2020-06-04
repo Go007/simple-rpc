@@ -1,4 +1,4 @@
-package com.hong.common;
+package com.hong.common.bean;
 
 import lombok.Data;
 

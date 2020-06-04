@@ -1,6 +1,8 @@
-package com.hong.common;
+package com.hong.common.protocol;
 
 import com.alibaba.fastjson.JSON;
+import com.hong.common.bean.Request;
+import com.hong.common.bean.Response;
 
 /**
  * @author wanghong

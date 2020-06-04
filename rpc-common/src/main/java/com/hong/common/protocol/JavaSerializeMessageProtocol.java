@@ -1,4 +1,7 @@
-package com.hong.common;
+package com.hong.common.protocol;
+
+import com.hong.common.bean.Request;
+import com.hong.common.bean.Response;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
