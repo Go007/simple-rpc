@@ -3,6 +3,7 @@ package com.hong.common.bean;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -59,6 +60,14 @@ public class Response implements Serializable {
 
     public String getHeader(String name) {
         return this.headers == null ? null : this.headers.get(name);
+    }
+
+    public void addHeader(String name,String value){
+        if (this.headers == null){
+            headers = new HashMap<>();
+        }
+
+        headers.put(name,value);
     }
 
 }
